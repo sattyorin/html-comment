@@ -1,0 +1,24 @@
+{
+  "name": "html-comment",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^5.60.15",
+    "@types/node": "^22.10.1",
+    "esbuild": "^0.24.0",
+    "eslint": "latest",
+    "obsidian": "^1.7.2",
+    "typescript": "^5.7.2"
+  }
+}
